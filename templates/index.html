@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Arrow 🥷🏻</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f5f7fa;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        margin: auto;
+        max-width: 90%;
+        width: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+      }
+
+      .heading {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #007acc;
+      }
+
+      .time-box {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          width: 95%;
+          padding: 20px;
+        }
+
+        .heading {
+          font-size: 1.5rem;
+        }
+
+        .time-box {
+          font-size: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">Arrow is now</p>
+      <p class="time-box">
+        <strong>{{ delta.years }}</strong> years
+        <strong>{{ delta.months }}</strong> months
+        <strong>{{ delta.days }}</strong> days
+        <strong>{{ delta.hours }}</strong> hours
+        <strong>{{ delta.minutes }}</strong> minutes
+        <strong>{{ delta.seconds }}</strong> seconds
+      </p>
+      <p class="heading">old.</p>
+      <p style="font-size: 0.9em; color: #777">
+        (Since 10 September 2019, 12:00 PM)
+      </p>
+    </div>
+  </body>
+</html>
