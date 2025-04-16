@@ -16,7 +16,7 @@ def get_time_elapsed():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Time Elapsed Since 10 Sep 2019</title>
+        <title>Arrow 🥷🏻</title>
         <style>
             body {{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
